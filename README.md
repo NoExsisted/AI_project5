@@ -32,6 +32,7 @@ pip install -r requirements.txt
 |-- 10215501450_刘钊瑄_实验五.pdf  报告
 |-- requirements.txt              运行所需依赖项
 |-- Readme.md                     仓库及运行说明
+|-- 实验五数据/                    数据集
 ```
 
 ## 运行方式
