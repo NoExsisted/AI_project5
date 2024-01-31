@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## 仓库结构
 
-```json
+```python
 |-- multi.py                      多模态融合模型
 |-- adjust_lr.py                  学习率调参
 |-- functions.py                  模型及其他函数实现，包括数据预处理部分等
