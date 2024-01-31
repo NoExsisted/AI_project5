@@ -28,7 +28,8 @@ pip install -r requirements.txt
 |-- functions.py                  模型及其他函数实现，包括数据预处理部分等
 |-- image_only.py                 消融实验——只输入图像
 |-- text_only.py                  消融实验——只输入文本
-|-- 10215501450_刘钊瑄_实验五.pdf   报告
+|-- main.py                       整合运行代码
+|-- 10215501450_刘钊瑄_实验五.pdf  报告
 |-- requirements.txt              运行所需依赖项
 |-- Readme.md                     仓库及运行说明
 ```
