@@ -22,5 +22,5 @@ predictions = model.predict([test_image_array, test_text_array])
 max_indices = np.argmax(predictions, axis=1)
 labels = functions.map_labels(max_indices)
 
-file_path = '../实验五数据/test_without_label.txt'
+file_path = './实验五数据/test_without_label.txt'
 functions.write_test(labels, file_path)
