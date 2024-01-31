@@ -24,13 +24,13 @@ def process_image(image_file_path):
 
 def get_data():
     # 读取train.txt文件
-    train_data = pd.read_csv('../实验五数据/train.txt')
+    train_data = pd.read_csv('./实验五数据/train.txt')
     #train_data = pd.read_csv('C:/Users/lianxiang/Desktop/大三上/AI/实验五数据/train.txt')
 
     # 创建一个字典存储标签信息
     label_dict = dict(zip(train_data['guid'], train_data['tag']))
 
-    test_data = pd.read_csv('../实验五数据/test_without_label.txt')
+    test_data = pd.read_csv('./实验五数据/test_without_label.txt')
     test = list(test_data['guid'])
 
     labeled_data = []
@@ -38,7 +38,7 @@ def get_data():
     test_data = []
 
     # 遍历data文件夹
-    data_folder = '../实验五数据/data/'
+    data_folder = './实验五数据/data/'
     for file_name in os.listdir(data_folder):
         if file_name.endswith('.txt'):
             guid = file_name.split('.')[0]  # 获取文件名中的编号
